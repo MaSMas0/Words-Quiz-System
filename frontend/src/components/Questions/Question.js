@@ -50,7 +50,7 @@ const Questions = ({
   const handleNext = (event) => {
     if (currentQuestion > 8) {
       axios
-        .post("http://localhost:3001/rank", {
+        .post("/rank", {
           score, // just for info this is the new syntax and it is equal to score:score when key and value are same you can use this syntax
         })
         .then(function (response) {
