@@ -59,7 +59,7 @@ const Questions = ({
         })
         .catch(function (error) {});
       event.preventDefault();
-      navigate("/rank");
+      navigate("/score");
     } else if (selected) {
       setCurrentQuestion(currentQuestion + 1);
       setSelected();
