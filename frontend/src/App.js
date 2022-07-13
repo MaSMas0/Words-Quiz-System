@@ -53,7 +53,7 @@ function App() {
             }
           />
           <Route
-            path="/rank"
+            path="/score"
             element={
               <Rank
                 name={name}
