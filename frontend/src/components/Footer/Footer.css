@@ -1,0 +1,18 @@
+/* for home page  */
+.footer {
+  text-align: center;
+  margin-bottom: 10;
+}
+
+/* for practice page and rank page  */
+.specialFooter {
+  text-align: center;
+  margin-bottom: 10;
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .specialFooter {
+    color: blue;
+  }
+}

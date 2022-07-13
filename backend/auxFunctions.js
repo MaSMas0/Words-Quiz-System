@@ -2,7 +2,6 @@ import fs from "fs/promises";
 
 // use fs module from node to fetch the json file data
 export async function fetchdata() {
-
   const resp = await fs.readFile(
     "./backend/data/TestData.json",
     (err, data) => {
@@ -10,7 +9,7 @@ export async function fetchdata() {
       return data;
     }
   );
-  return JSON.parse(resp);
+  return JSON.parse(resp); // parse the response from the json file
 }
 
 export function shuffle(array) {

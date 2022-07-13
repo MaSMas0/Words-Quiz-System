@@ -1,0 +1,29 @@
+.practice {
+  background-image: url(../../../public/board.png);
+  background-position: 5px;
+  background-size: 100vh;
+  height: 90vh;
+  margin-top: 0;
+  padding-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+}
+
+.subtitle {
+  font-size: 25px;
+  color: aliceblue;
+  border: 1px solid black;
+  box-shadow: 4px 4px 2px black;
+  padding: 5px 10px;
+  display: inline-block;
+}
+
+.quizInfo {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  margin: 10px;
+}
