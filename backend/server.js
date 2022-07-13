@@ -27,7 +27,7 @@ app.use("/", routes); // using the routes specified in the routes.js file
 // a solution for using dirname when using es modules in nodeJS
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-console.log(path.resolve(__dirname,"..","frontend","build","index.html"))
+
 
 if (process.env.NODE_ENV === 'production'){
 app.use(express.static(path.join(__dirname, "../frontend/build")))
